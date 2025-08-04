@@ -1,5 +1,5 @@
 # CustomerAnalysis
-This project performs clustering analysis on sales transaction data from three Walmart branches using R. The goal is to segment customer behavior, analyze product performance, and explore sales trends.
+This project performs clustering analysis on sales transaction data using R. The goal is to segment customer behavior, analyze product performance, and explore sales trends.
 
 ---
 
