@@ -83,10 +83,7 @@ Each cluster is analyzed by:
 
 | Question | Answered in Script |
 |---------|--------------------|
-| How many unique cities? | ✅ |
-| What are the product lines? | ✅ |
 | Which product sells most? | ✅ |
-| What is the top payment method? | ✅ |
 | Who buys more — by gender, type? | ✅ |
 | When do customers spend more? | ✅ |
 | Cluster-based segmentation? | ✅ |
