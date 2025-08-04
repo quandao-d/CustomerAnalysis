@@ -11,28 +11,28 @@ This project performs clustering analysis on sales transaction data using R. The
 
 ---
 
-## 🧪 Analysis Plan
+## Analysis Plan
 
-### ✅ 1. Product Analysis
+### 1. Product Analysis
 - Identify product categories
 - Determine best-selling and underperforming products
 - Evaluate product preferences by gender
 
-### ✅ 2. Sales Analysis
+### 2. Sales Analysis
 - Track monthly sales trends
 - Evaluate performance by time of day and day of week
 - Understand pricing and quantity patterns
 
-### ✅ 3. Customer Analysis
+### 3. Customer Analysis
 - Segment customers using clustering
 - Analyze customer types and payment methods
 - Examine behavior by gender, time, and frequency
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
-### 🔹 Data Cleaning
+### Data Cleaning
 - Converted `orderdate` to `Date` format
 - Removed unnecessary columns: `clientId`, `orderId`, `orderdate`, etc.
 - Encoded categorical variables:
@@ -40,13 +40,13 @@ This project performs clustering analysis on sales transaction data using R. The
   - `product`: factorized numerically
 - Handled missing values with `na.omit()`
 
-### 🔹 Feature Engineering
+### Feature Engineering
 - Created new columns:
   - `month`: to aggregate monthly trends
   - `product`: numeric factor for clustering
 - Removed non-numeric fields for modeling
 
-### 🔹 Clustering (K-Means)
+### Clustering (K-Means)
 - Scaled data with `scale()`
 - Determined optimal clusters using:
   - Elbow Method (`wss`)
@@ -59,14 +59,14 @@ This project performs clustering analysis on sales transaction data using R. The
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-- 📌 **Product frequency barplot**
-- 📌 **Monthly sales frequency**
-- 📌 **Gender-product heatmap**
-- 📌 **Cluster visualizations (colored by label)**
+- **Product frequency barplot**
+- **Monthly sales frequency**
+- **Gender-product heatmap**
+- **Cluster visualizations (colored by label)**
 
 ---
 
-## 📈 Cluster Summary
+## Cluster Summary
 
 Each cluster is analyzed by:
 
@@ -79,7 +79,7 @@ Each cluster is analyzed by:
 
 ---
 
-## ❓ Business Questions Answered
+## Business Questions Answered
 
 | Question | Answered in Script |
 |---------|--------------------|
@@ -93,7 +93,7 @@ Each cluster is analyzed by:
 
 ---
 
-## 📦 Files
+## Files
 
 | File | Description |
 |------|-------------|
