@@ -98,7 +98,7 @@ Each cluster is analyzed by:
 | File | Description |
 |------|-------------|
 | `Transactions (1).csv` | Raw dataset |
-| `walmart_analysis.R` | Main R script |
+| `clusteranalysis.R` | Main R script |
 | `README.md` | Project overview |
 
 ---
